@@ -898,7 +898,6 @@ overflow: hidden;
   .subscribe-button:focus {
 	background-color: var(--color-ocean);
 	cursor: pointer;
-	border: 1px solid transparent;
   }
 
 
