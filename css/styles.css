@@ -894,7 +894,13 @@ overflow: hidden;
   .footer-icon {
 	margin-left: 16px;
   }
-
+  .subscribe-button:hover,
+  .subscribe-button:focus {
+	background-color: var(--color-ocean);
+	cursor: pointer;
+	border: 1px solid transparent;
+	border: #f4f4fd;
+  }
 
 
 /* Backdrop */
@@ -1186,6 +1192,7 @@ overflow: hidden;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
+
   .modal-field-check {
 	margin-bottom: 24px;
 	position: relative;
@@ -1193,6 +1200,10 @@ overflow: hidden;
   
   .send {
 	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
 	color: #ffffff;
 	background-color: #4d5ae5;
 	display: block;
